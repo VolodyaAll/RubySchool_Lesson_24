@@ -6,3 +6,4 @@ Name: sadas, Phone: faSDF, Date/time: asf, Barber: Jessie Pinkman, Color: #46d6d
 Name: , Phone: , Date/time: , Barber: Walter White, Color: #7bd148.
 Name: va, Phone: ds, Date/time: asv, Barber: Walter White, Color: #7ae7bf.
 Name: asdtg, Phone: df, Date/time: adf, Barber: Walter White, Color: #7bd148.
+Name: ert, Phone: awet, Date/time: asdt, Barber: Walter White, Color: #7bd148.
