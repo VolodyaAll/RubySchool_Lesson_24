@@ -26,11 +26,16 @@ post '/visit' do
 	@date_time = params[:date_time]
 	@barber = params[:barber]
 	@color = params[:color]
-	
-	f = File.open("./public/users.txt", "a")
-	f.write("Name: #{@username}, Phone: #{@phone}, Date/time: #{@date_time}, Barber: #{@barber}, Color: #{@color}.\n")
-	f.close
-	erb "Dear #{@username}, we will be waiting for you at #{@date_time}. Your barber is #{@barber}, Color: #{@color}. See you! <a href=\"http://localhost:4567\">На главную</a>"		
+
+	if !params.value?("") 
+		f = File.open("./public/users.txt", "a")
+		f.write("Name: #{@username}, Phone: #{@phone}, Date/time: #{@date_time}, Barber: #{@barber}, Color: #{@color}.\n")
+		f.close
+		erb "Dear #{@username}, we will be waiting for you at #{@date_time}. Your barber is #{@barber}, Color: #{@color}. See you! <a href=\"http://localhost:4567\">На главную</a>"		
+	else 
+		@error = 'Fill all information'
+		erb :visit
+	end
 end
 
 post '/contacts' do
