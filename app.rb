@@ -35,6 +35,8 @@ post '/visit' do
 		
 		if params[key] == ''
 			@error = value
+		else
+			@error = ''
 		end
 		
 	end
