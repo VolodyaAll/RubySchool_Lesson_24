@@ -1,0 +1,5 @@
+Name: ыапяыв, Phone: вспиЯЧС, Date/time: ЧЯСМ, Barber: Jessie Pinkman.
+Name: dasfg, Phone: asdg, Date/time: asdg, Barber: Jessie Pinkman, Color: .
+Name: aga, Phone: dga, Date/time: asdg, Barber: Walter White, Color: .
+Name: das, Phone: fas, Date/time: as, Barber: Walter White, Color: #46d6db.
+Name: sadas, Phone: faSDF, Date/time: asf, Barber: Jessie Pinkman, Color: #46d6db.
